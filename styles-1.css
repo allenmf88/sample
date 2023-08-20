@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.grid {
+    display: grid;
+}
+
+.grid div:nth-child(even) {
+    color: red;
+}
+
+.grid div:nth-child(odd) {
+    color: green;
+}
